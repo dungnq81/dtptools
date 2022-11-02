@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "build": "mix --production"
+  },
+  "browserslist": [
+    "last 3 major versions",
+    ">= 0.5%",
+    "iOS >= 12",
+    "Firefox ESR",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.12",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "glob": "^8.0.3",
+    "laravel-mix": "^6.0.49",
+    "postcss": "^8.4.16",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.0.2"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^4.0.31",
+    "current-device": "^0.10.2",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "nanoid": "^4.0.0",
+    "sanitize-html": "^2.7.2",
+    "slugify": "^1.6.5",
+    "video.js": "^7.20.3"
+  }
+}
